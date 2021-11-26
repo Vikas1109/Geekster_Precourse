@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technologies Required for MERN Stack </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&display=swap');
+        
+        /* Universal selector */
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+
+        /* navbar styling */
+
+
+        .navbar {
+            background: black;
+            padding: 25px 150px;
+
+
+
+
+        }
+
+        #logo {
+
+            color: #fff;
+            float: left;
+        }
+
+        li {
+
+            text-transform: capitalize;
+            list-style: none;
+            display: inline;
+            padding-left: 20px;
+
+        }
+
+        li a {
+            text-decoration: none;
+            color: #fff;
+
+
+        }
+
+        .navbar::after {
+            content: " ";
+            display: block;
+            clear: both;
+        }
+
+        #navbar-items {
+            float: right;
+        }
+
+        /* main-content styling */
+
+        #main-content {
+
+           margin-top: 150px;
+           
+        }
+
+        #main-content img{
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+        }
+     
+        #img-box{
+            float: left;
+            padding: 0px 100px;
+            
+        }
+
+        section #main-content #about_img-box{
+            float: right;
+            
+        }
+
+        #about_img-box h3{
+           
+                padding-top: 5px;
+            
+        }
+
+        #about_img-box p{
+            padding-top: 10px;
+        }
+
+        #about_img-box #p3{
+            font-weight: bold;
+        }
+
+
+        /* placement_process styling */
+
+        #placement_process{
+            margin-top: 150px;
+            padding-bottom: 40px;
+           
+        }
+
+        #placement_process::after {
+            content: " ";
+            display: block;
+            clear: both;
+        }
+
+        #placement_process img{
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+        }
+
+        .PI{
+            float: left;
+            width: 25%;
+            padding: 0px 30px;
+        }
+
+        .PI #placement-text{
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        #footer_content{
+            padding-top: 50px;
+            text-align: center;
+            background-color: black;
+            color: #fff;
+        }
+        .footer_text{
+            text-align: center;
+        }
+
+        .footer_links i{
+            padding-left: 20px;
+            padding-bottom: 20px;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div id="logo">
+
+            <span>MyPortfolio</span>
+        </div>
+        <div id="navbar-items">
+            <ol id="items">
+                <li><a href="#home">home</a></li>
+                <li><a href="#profile">profile</a></li>
+                <li><a href="#resume">resume</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ol>
+        </div>
+
+    </header>
+
+
+    <section id="main-content">
+        <div id="img-box">
+            <img src="https://images.pexels.com/photos/9968416/pexels-photo-9968416.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt="imgage not found">
+        </div>
+        
+           
+        <div id="about_img-box">
+            <h5>Hi there!!</h5>
+            <h3>I am Sneha</h3>
+            <p id="p1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim illo quasi, aspernatur itaque quae molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, debitis!</p>
+            <p id="p2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim illo quasi, aspernatur itaque quae molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, debitis!logo Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium alias quibusdam id, dicta ut dolorum blanditiis maiores, quas dolor quam, totam animi molestias velit ratione? Eveniet odio voluptate labore asperiores.</p>
+            <p id="p3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim illo quasi, aspernatur itaque quae molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, debitis!</p>
+        </div>
+    </section>
+
+
+    <section id="placement_process">
+
+        <div id="placement_items">
+            
+            <div class="PI" id="placement_item1">
+                <div id="placement-img"><img src="https://images.pexels.com/photos/3987110/pexels-photo-3987110.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+                <div id="placement-text"><h3>Profile</h3></div>
+            </div>
+
+            <div class="PI" id="placement_item2">
+                <div id="placement-img"><img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+                <div id="placement-text"><h3>Resume</h3></div>
+            </div>
+
+            <div class="PI" id="placement_item3">
+                <div id="placement-img"><img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+                <div id="placement-text"><h3>Project</h3></div>
+            </div>
+
+            <div class="PI" id="placement_item4">
+                <div id="placement-img"><img src="https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+                <div id="placement-text"><h3>Contact</h3></div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer id="footer_content" >
+        <div class="footer_links">
+            <i class="fab fa-facebook fa-3x"></i>
+            <i class="fab fa-twitter fa-3x"></i>
+            <i class="fab fa-instagram fa-3x"></i>
+            <i class="fab fa-linkedin fa-3x"></i>
+        </div>
+
+        <div class="footer_text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, provident consequuntur nostrum placeat delectus cupiditate ducimus, pariatur odit quis totam quo voluptates eaque? Eligendi distinctio sed aperiam modi, repellendus vitae.</p> <br>
+            <p>Copyright <i class="far fa-copyright"></i> reserved All Right.</p> <br>
+            <h3>Vikas Chauhan</h3>
+        </div>
+    </footer>
+
+</body>
+
+</html>
